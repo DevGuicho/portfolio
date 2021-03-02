@@ -8,7 +8,7 @@ const Nav = () => {
         <span>Dev</span>
         <span>Guicho</span>
       </div>
-      <ul>
+      <ul className="nav__list">
         <li>Home</li>
         <li>About me</li>
         <li>Projects</li>
