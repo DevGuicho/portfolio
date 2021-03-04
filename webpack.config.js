@@ -46,6 +46,10 @@ module.exports = {
         test: /\.(png|jpg|svg|gif)$/,
         type: 'asset/resource',
       },
+      {
+        test: /\.pdf$/,
+        use: { loader: 'file-loader' },
+      },
     ],
   },
   plugins: [
