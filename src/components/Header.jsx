@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import '@styles/Header.scss';
 import person from '@images/person1.png';
-
+import cv from '../assets/CV.pdf';
 const Header = () => {
   return (
     <header>
@@ -18,7 +18,11 @@ const Header = () => {
             I'm in love with code
           </p>
           <div className="hero__buttons">
-            <button className="btn">Download CV</button>
+            <button className="btn">
+              <a href={cv} download="CV_LuisVazquez">
+                Download CV
+              </a>
+            </button>
             <button className="btn clear">Contact me</button>
           </div>
         </div>

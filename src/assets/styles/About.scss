@@ -1,0 +1,57 @@
+@import './Vars.scss';
+
+.container__about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+.about {
+  background: $secondary-blue;
+  height: 100vh;
+}
+.about__img {
+  max-width: 320px;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.about__text {
+  max-width: 490px;
+  width: 100%;
+
+  h2 {
+    font-size: 2.4rem;
+    color: $orange;
+    margin-bottom: 16px;
+  }
+  .description {
+    font-size: 16px;
+    letter-spacing: 5%;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 60px;
+  }
+}
+
+.contact {
+  list-style: none;
+  color: white;
+  li {
+    display: flex;
+    justify-content: space-between;
+    max-width: 255px;
+    margin-bottom: 8px;
+    font-size: 1.6rem;
+  }
+  span {
+    display: inline-block;
+    margin-right: 5px;
+    i {
+      margin-right: 12px;
+      color: $orange;
+    }
+  }
+}

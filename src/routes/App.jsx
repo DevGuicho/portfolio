@@ -14,6 +14,7 @@ const App = () => {
       <Skills />
       <Projects />
       <Education />
+      <h1>On Construction...</h1>
     </>
   );
 };
