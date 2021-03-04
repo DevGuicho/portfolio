@@ -1,5 +1,10 @@
 @import './Vars.scss';
+
 nav {
+  background: $base-blue;
+}
+
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;

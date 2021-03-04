@@ -25,6 +25,15 @@ body {
   border-radius: 40px;
   border: none;
   font-weight: bold;
-  font-size: 1.8rem;
-  padding: 12px 50px;
+  font-size: 1.4rem;
+  padding: 13px 24px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+}
+
+.clear {
+  background: none;
+  border: 2px solid $orange;
+  color: $orange;
 }
